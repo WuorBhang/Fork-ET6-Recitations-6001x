@@ -22,3 +22,21 @@ Instructions
 6. Combine intro and is_good_str using string concatenation, and assign the result to a new variable, message.
 7. Print the values of half_int, is_good_str, and message.
 """
+
+half = 0.5
+intro = "Hello! How are you?"
+is_good = True
+
+# Convert half to an integer and store the result in a new variable, half_int
+half_int = int(half)
+
+# convert is_good to a string and store it in a variable, is_good_str
+is_good_str = str(is_good)
+
+# combine intro and is_good_str using string concatenation, and assign the result to a new variable, message
+message = intro + " " + is_good_str
+
+# print the values of half_int, is_good_str, and message
+print(half_int)
+print(is_good_str)
+print(message)
