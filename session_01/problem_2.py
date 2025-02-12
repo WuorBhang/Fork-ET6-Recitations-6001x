@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 """
 Created on Fri Jan 24 11:39:16 2025
-@author: Somaia
+@author: Wuor Bhang
 
 --- 2: Performing Calculations with Variables ---
 

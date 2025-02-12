@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 """
 Created on Fri Jan 24 11:39:16 2025
-@author: Somaia
+@author: Wuor Bhang
 
 --- 3: Exploring and Converting Between Variable Types in Python ---
 
@@ -22,7 +22,6 @@ Instructions
 6. Combine intro and is_good_str using string concatenation, and assign the result to a new variable, message.
 7. Print the values of half_int, is_good_str, and message.
 """
-
 half = 0.5
 intro = "Hello! How are you?"
 is_good = True
