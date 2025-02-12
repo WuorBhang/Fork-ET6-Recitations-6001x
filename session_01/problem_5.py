@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 """
 Created on Fri Jan 24 11:39:16 2025
-@author: Somaia
+@author: Wuor Bhang
 
 ---  5: Scenario and Instructions: Logical Operators in Conditions ---
 
