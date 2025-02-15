@@ -5,11 +5,14 @@
 # This is trick problem you should figure out how it is!
 		 		    		
 #def keysWithValue(aDict, target):
-    result_list = []
-    '''
-    aDict: a dictionary
-    target: an integer
-    '''
+#    '''
+#    aDict: a dictionary
+#    target: an integer
+
+#    returns: list of keys in aDict that correspond to the value target
+#    '''
+#    # Your code here
+
 #***********************************************************************************************************************************
 """
 Created on Fri Feb 14 17:45:09 2025
@@ -45,20 +48,30 @@ print(keysWithValue(aDict, 50))
 # Output: []
 
 """
-#def keysWithValue(aDict, target):
+def keysWithValue(aDict, target):
     '''
     aDict: a dictionary
     target: an integer
     Returns: a list of keys in aDict with the value target, sorted in increasing order.
     '''
     # Initialize an empty list to store matching keys
-    
+    result_list = []
+
     # Iterate through each key in the dictionary
-
-    # Check if the value matches the target
-
-    # Append the key to the result list
+    for key in aDict:
+        # Check if the value matches the target
+        if aDict[key] == target:
+            # Append the key to the result list
+            result_list.append(key)
     
     # Sort the list of keys in increasing order
+    result_list.sort()
 
     # Return the sorted list
+    return result_list
+
+# Example usage:
+aDict = {5: 1, 3: 90, 4: 90, 12: 90, 22: 90, 21: 100}
+print(keysWithValue(aDict, 90))  # Output: [3, 4, 12, 22]
+print(keysWithValue(aDict, 100)) # Output: [21]
+print(keysWithValue(aDict, 50))  # Output: []
